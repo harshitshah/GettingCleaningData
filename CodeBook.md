@@ -11,7 +11,7 @@ This is how the original DataSet is transformed
 
   * Other features are removed from the merged data set computed in step 1
 
-3. Activity ids from the training and test sets ("UCI HAR Dataset/train/Y_train.txt", "UCI HAR Dataset/test/Y_test.txt") are merged together
+1. Activity ids from the training and test sets ("UCI HAR Dataset/train/Y_train.txt", "UCI HAR Dataset/test/Y_test.txt") are merged together
 
 4. Subject ids from the training and test sets ("UCI HAR Dataset/train/subject_train.txt", "UCI HAR Dataset/test/subject_test.txt") are merged together
 
@@ -26,6 +26,7 @@ This is how the original DataSet is transformed
 9. Activity ids are replaced by activity names from "UCI HAR Dataset/activity_info.txt" in the new data set
 
 10. The new data set is written into "tidy_data.txt"
+
 
 
 Each record in tidy_data set  contains:
