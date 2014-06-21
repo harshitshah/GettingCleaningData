@@ -174,6 +174,7 @@ avg-fBodyBodyGyroJerkMag-mean()
 avg-fBodyBodyGyroJerkMag-std()
 
 
+For a description of variables in "UCI HAR Dataset", please read "UCI HAR Dataset/README.txt" and "UCI HAR Dataset/features_info.txt". 
 
 
 ### Note
