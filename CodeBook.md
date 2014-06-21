@@ -7,11 +7,11 @@ This is how the original DataSet is transformed
 
 2. Feature names are read from "UCI HAR Dataset/features.txt"
 
-  * Only features corresponding to mean and standard deviation of each measurement (i.e., feature names containing string "-mean(" or "-std(" ) are selected
+ 1. Only features corresponding to mean and standard deviation of each measurement (i.e., feature names containing string "-mean(" or "-std(" ) are selected
 
-  * Other features are removed from the merged data set computed in step 1
+ 2. Other features are removed from the merged data set computed in step 1
 
-1. Activity ids from the training and test sets ("UCI HAR Dataset/train/Y_train.txt", "UCI HAR Dataset/test/Y_test.txt") are merged together
+3. Activity ids from the training and test sets ("UCI HAR Dataset/train/Y_train.txt", "UCI HAR Dataset/test/Y_test.txt") are merged together
 
 4. Subject ids from the training and test sets ("UCI HAR Dataset/train/subject_train.txt", "UCI HAR Dataset/test/subject_test.txt") are merged together
 
@@ -30,6 +30,7 @@ This is how the original DataSet is transformed
 
 
 Each record in tidy_data set  contains:
+
 Activity
 
   * Name of the activity
