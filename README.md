@@ -6,7 +6,8 @@ The project includes an R script file **run_analysis.R**. It reads data from the
 
 For details on the UCI HAR data set, please refer to the README.txt contained in the data set.
 
-run_analysis.R transforms the UCI HAR dataset as follows:
+**run_analysis.R** transforms the UCI HAR dataset as follows:
+
 1. It merges the training and test data sets.
 
 2. It extracts only the mean and standard deviations of each measurement.
@@ -17,7 +18,7 @@ run_analysis.R transforms the UCI HAR dataset as follows:
 
 5. Generates a new data set with average of each variable for each activity and each subject.
 
-**CodeBook.md** describes the transformations performed on input dataset and variables contained in tidy_data.txt 
+**CodeBook.md** describes the transformations performed on input dataset and variables contained in the output file _tidy_data.txt_.
 
 ### Note
 run_analysis.R expects the original data set "UCI HAR Dataset.zip" to be unzipped and present in the same folder. The output of the script will be contained in **tidy_data.txt** (also in the same folder).
