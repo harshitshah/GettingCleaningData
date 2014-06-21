@@ -8,9 +8,13 @@ For details on the UCI HAR data set, please refer to the README.txt contained in
 
 run_analysis.R transforms the UCI HAR dataset as follows:
 1. It merges the training and test data sets.
+
 2. It extracts only the mean and standard deviations of each measurement.
+
 3. Labels the variables of output data set with descriptive names.
+
 4. Labels the activity ids with descriptive names.
+
 5. Generates a new data set with average of each variable for each activity and each subject.
 
 **CodeBook.md** describes the transformations performed on input dataset and variables contained in tidy_data.txt 
